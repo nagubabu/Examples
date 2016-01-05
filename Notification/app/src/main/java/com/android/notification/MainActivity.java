@@ -23,7 +23,7 @@ public class MainActivity extends Activity {
     }
 
     public void generateNotification(View view){
-	// this is rajesh
+
         manager = (NotificationManager)getSystemService(Context.NOTIFICATION_SERVICE);
 
         Intent intent = new Intent();
